@@ -5,7 +5,7 @@ import time
 
 class Test_Payment(BaseTest):
 
-    def test_click_to_pay_button(self):
+    def test_payment(self):
         self.paymentPage = PaymentPage(self.driver)
         self.paymentPage.clickToPayTheBillButton()
         self.paymentPage.clickToDivideTheBillButton()

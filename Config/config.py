@@ -1,5 +1,4 @@
 class TestData:
-
     URL = ""
 
     CREDIT_CARD = ""
